@@ -1,4 +1,4 @@
- # Top Five de Ma Musique
+ # 🎵Top Five de Ma Musique
 
  # Mini-Projet Facultatif – Technologies du Web (HTML/CSS, JS/jQuery)
 
@@ -7,7 +7,7 @@
 Ce mini-projet consiste à réaliser une petite application web affichant un Top 5 de mes artistes préférés, avec leurs meilleurs titres.
 L’objectif principal est de pratiquer :
 
-Le HTML5,le e CSS3, le jQuery (animations, gestion des clics, transitions)
+Le HTML5,le e CSS3, le jQuery (animations, gestion des clics, transitions).
 
 L’application permet :
   -D’afficher 5 artistes côte à côte
@@ -29,15 +29,17 @@ L’application permet :
 │
 
 └── images/
-        ├── background.jpg
-        ├── bw-image.jpg
-        └── color-image.jpg
+
+             ├── background.jpg
+             ├── bw-image.jpg
+             └── color-image.jpg
 
 
  # Technologies utilisées
 
-HTML5/ CSS3 : background, padding, margin, images en noir & blanc ou en couleur, Google Fonts (Limelight & Lobster)
-jQuery 2.1.4(CDN Google) : animate(), click(), gestion d’index (openedIndex)
+HTML5/ CSS3 : background, padding, margin, images en noir & blanc ou en couleur, Google Fonts (Limelight & Lobster).
+
+jQuery 2.1.4(CDN Google) : animate(), click(), gestion d’index (openedIndex).
 
 # Fonctionnalités principales
       1) Affichage des artistes :
@@ -53,10 +55,10 @@ Lors d'un clic :l’image couleur glisse vers la gauche (animate({left: "0px"}))
 Si on reclique sur le même artiste : la description se referme, l’image couleur retourne à droite (left: 140px)
 
 
-#🧑‍💻 Auteur
+# 🧑‍💻Auteur
 
-Yazid GAYA.
+Nom : Yazid GAYA.
 
 Module : Technologies du Web avancé.
 
-Mini-Projet: HTML / CSS / jQuery/
+Mini-Projet: HTML / CSS / jQuery.
