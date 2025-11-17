@@ -15,8 +15,7 @@ L’application permet :
   -De dérouler une description animée des titres
   -De refermer la zone si on reclique dessus
 
-
-#📁# Structure du projet
+# 📁Structure du projet
 /
 ├── src/
 │    ├── index.html
