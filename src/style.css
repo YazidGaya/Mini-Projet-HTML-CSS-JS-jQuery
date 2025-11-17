@@ -1,0 +1,147 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Background */
+body {
+    background-image: url("/images/background.jpg");
+    background-position: top center;
+    background-attachment: fixed;
+}
+
+/* Header (Titre principal) */
+header {
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 45px;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    text-shadow: 10px 10px 10px black;
+    font-family: 'Limelight', cursive;
+}
+
+/* Bloc menu */
+#main-menu {
+    width: 980px;
+    margin: 0 auto;
+    padding-top: 161px;
+    position: relative;
+    margin-left: 500px;
+}
+
+/* Liste */
+#main-menu ul {
+    list-style: none;
+    float: left;
+}
+
+#main-menu ul li {
+    width: 140px;
+    height: 500px;
+    float: left;
+    position: relative;
+    overflow: hidden;
+}
+
+
+/*Bloc d'images des Artistes*/
+/* Images et couleurs */
+.bw, .color {
+    width: 140px;
+    height: 500px;       
+    background-repeat: no-repeat;
+    position: absolute;      
+    cursor: pointer;
+    top: 0px;
+}
+
+/* Images noir et blanc */
+.bw {
+    left: 0px;
+    opacity: 0.7; 
+}
+
+/* Image couleur (la masquée à droite) */
+.color {
+    left: 140px;
+}
+
+/*Découpage de l'image */
+#part1 .bw, #part1 .color {
+    background-position: 0 0;
+    background-image: url("/images/bw-image.jpg");
+}
+#part1 .color { background-image: url("/images/color-image.jpg"); }
+
+#part2 .bw, #part2 .color {
+    background-position: -140px 0;
+    background-image: url("/images/bw-image.jpg");
+}
+#part2 .color { background-image: url("/images/color-image.jpg"); }
+
+#part3 .bw, #part3 .color {
+    background-position: -280px 0;
+    background-image: url("/images/bw-image.jpg");
+}
+#part3 .color { background-image: url("/images/color-image.jpg"); }
+
+#part4 .bw, #part4 .color {
+    background-position: -420px 0;
+    background-image: url("/images/bw-image.jpg");
+}
+#part4 .color { background-image: url("/images/color-image.jpg"); }
+
+#part5 .bw, #part5 .color {
+    background-position: -560px 0;
+    background-image: url("/images/bw-image.jpg");
+}
+#part5 .color { background-image: url("/images/color-image.jpg"); }
+
+/* Bloc description des artistes */
+.description {
+    width: 280px;
+    height: 510px;
+    position: absolute;
+    left: 140px;
+    top: 0px; 
+    background-color: white;
+    padding: 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+/* Titre principal de la description */
+.description h2 {
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/* Titre secondaire de la description */
+.description h3 {
+    padding: 10px;
+    margin-top: 30px;
+    font-size: 25px;
+    background-color: red;
+    color: white;
+    text-align: center;
+    text-shadow: 1px 1px 1px black;
+    border-radius: 2px;
+    font-family: 'Lobster', cursive;
+    margin-bottom: 15px;
+}
+
+/* Paragrapghes de la description */
+.description p {
+    padding-top: 40px;
+    font-size: 25px;
+    background-color: white;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+}
