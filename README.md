@@ -15,7 +15,7 @@ L’application permet :
   -De dérouler une description animée des titres
   -De refermer la zone si on reclique dessus
 
-📁 Structure du projet
+#📁 Structure du projet
 /
 ├── index.html
 ├── style.css
@@ -25,27 +25,13 @@ L’application permet :
       ├── bw-image.jpg
       └── color-image.jpg
 
- Technologies utilisées
+ # Technologies utilisées
 
-HTML5
-
-CSS3
-
-background, padding, margin
-
-images en noir & blanc / couleur
-
+HTML5, CSS3, background, padding, margin, images en noir & blanc / couleur
 Google Fonts (Limelight & Lobster)
+jQuery 2.1.4 (CDN Google), animate(), click(), gestion d’index (openedIndex)
 
-jQuery 2.1.4 (CDN Google)
-
-animate()
-
-click()
-
-gestion d’index (openedIndex)
-
- Fonctionnalités principales
+# Fonctionnalités principales
       1) Affichage des artistes :
 
 Les 5 artistes sont affichés côte à côte, avec une image : en noir et blanc (affichée par défaut), en couleur (glisse vers la gauche lorsqu’on clique)
@@ -59,7 +45,7 @@ Lors d'un clic :l’image couleur glisse vers la gauche (animate({left: "0px"}))
 Si on reclique sur le même artiste : la description se referme, l’image couleur retourne à droite (left: 140px)
 
 
-🧑‍💻 Auteur
+#🧑‍💻 Auteur
 
 Yazid GAYA
 Module : Technologies du Web avancé
