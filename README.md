@@ -10,10 +10,15 @@ L’objectif principal est de pratiquer :
 Le HTML5,le e CSS3, le jQuery (animations, gestion des clics, transitions).
 
 L’application permet :
+
   -D’afficher 5 artistes côte à côte
+  
   -De cliquer sur un artiste pour afficher l’image en couleur
+  
   -De dérouler une description animée des titres
+  
   -De refermer la zone si on reclique dessus
+  
 
 # Structure du projet
 /
