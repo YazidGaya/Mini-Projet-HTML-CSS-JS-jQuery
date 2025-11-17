@@ -15,14 +15,22 @@ L’application permet :
   -De dérouler une description animée des titres
   -De refermer la zone si on reclique dessus
 
+
 #📁 Structure du projet
 /
+
 ├── index.html
+
 ├── style.css
+
 ├── script.js
+
 └── images/
+
       ├── background.jpg
+      
       ├── bw-image.jpg
+      
       └── color-image.jpg
 
  # Technologies utilisées
@@ -47,6 +55,8 @@ Si on reclique sur le même artiste : la description se referme, l’image coule
 
 #🧑‍💻 Auteur
 
-Yazid GAYA
-Module : Technologies du Web avancé
-Mini-Projet: HTML / CSS / jQuery
+Yazid GAYA.
+
+Module : Technologies du Web avancé.
+
+Mini-Projet: HTML / CSS / jQuery/
