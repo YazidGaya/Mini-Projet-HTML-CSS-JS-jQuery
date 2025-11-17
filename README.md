@@ -16,7 +16,7 @@ L’application permet :
   -De refermer la zone si on reclique dessus
 
 
-#📁 Structure du projet
+#📁# Structure du projet
 /
 
 ├── index.html
@@ -26,11 +26,8 @@ L’application permet :
 ├── script.js
 
 └── images/
-
       ├── background.jpg
-      
       ├── bw-image.jpg
-      
       └── color-image.jpg
 
  # Technologies utilisées
