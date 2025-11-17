@@ -18,13 +18,11 @@ L’application permet :
 
 #📁# Structure du projet
 /
-
-├── index.html
-
-├── style.css
-
-├── script.js
-
+├── src/
+│    ├── index.html
+│    ├── style.css
+│    └── script.js
+│
 └── images/
       ├── background.jpg
       ├── bw-image.jpg
@@ -32,9 +30,8 @@ L’application permet :
 
  # Technologies utilisées
 
-HTML5, CSS3, background, padding, margin, images en noir & blanc / couleur
-Google Fonts (Limelight & Lobster)
-jQuery 2.1.4 (CDN Google), animate(), click(), gestion d’index (openedIndex)
+HTML5/ CSS3 : background, padding, margin, images en noir & blanc ou en couleur, Google Fonts (Limelight & Lobster)
+jQuery 2.1.4(CDN Google) : animate(), click(), gestion d’index (openedIndex)
 
 # Fonctionnalités principales
       1) Affichage des artistes :
