@@ -20,18 +20,18 @@ L’application permet :
 
 ├── src/
 
-│    ├── index.html
+│      ├── index.html
 
-│    ├── style.css
+│      ├── style.css
 
-│    └── script.js
+│      └── script.js
 
 │
 
 └── images/
-      ├── background.jpg
-      ├── bw-image.jpg
-      └── color-image.jpg
+        ├── background.jpg
+        ├── bw-image.jpg
+        └── color-image.jpg
 
 
  # Technologies utilisées
